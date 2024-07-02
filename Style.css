@@ -1,0 +1,282 @@
+/* set these as universal  */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: neuefrutigerworld_w02, tahoma, arial, helvetica, sans-serif;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+/* sign up div  */
+.sign-up{
+    width: 100%;
+    height: 47px;
+    background-color: #002b5c;;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*                                                     main header  */
+.main-header{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.main-header ul{   /* to adjust the list  */
+    display: flex;
+    gap: 20px;
+}
+.main-header input{
+    width: 375px;
+    height: 48px;
+    border-radius: 25px;
+    border: 1px solid rgb(192, 192, 192);
+}
+.main-header button{
+    height: 48px;
+    width: 48px;
+    border-radius: 25px;
+    border: 1px solid rgb(207, 207, 207);
+    background: white;
+}
+/*                                     nav 1 */
+.nav-1{
+    width: 100%;
+    height: 105px;
+    display: flex;
+    justify-content: center;
+    align-items: center;   /* to adjust center  */
+}
+.nav-1 ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+}
+.nav-1 a{
+    color: rgb(73, 73, 73);
+    font-size: 15px;
+}
+.nav-1 ul img{
+    width: 28px;
+    height: 28px;
+}
+/*                                     nav 2  */
+.nav-2{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 120px;
+}
+.nav-2-left{
+    width: 225px;
+    height: 75px;
+    color: #0066a1;
+    border: 1px solid white;
+    border-right-color: #0066a1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-2-right{
+    margin-right: 140px;
+}
+.nav-2-right a{  /* to adjust the a tag in the right side of nav bar  */
+    color: #0066a1;
+}
+.nav-2 div h1{  /* to adjust covid-19 text  */
+    width: 185px;
+    font-size: 35px;
+}
+/*                                  banner-1 */
+.banner-1{
+    width: 100%;
+    height: 595px;
+    color: white;
+    background-image: url(imges/img\ 1.avif);
+    padding-left: 100px;     /* adjust text alignment  */
+    padding-top: 155px;
+}
+.banner-1 button{
+    background-color: #0066a1;
+    color: white;
+    border: none;
+    width: 115px;
+    height: 35px;
+}
+/*                          section  */
+section{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+.product{
+    height:475px ;
+    width: 22%;
+}
+.product h4{
+    padding-top: 20px;   /* to adjust lower text of the product  */
+}
+.product button{
+    width: 230px;
+    height: 46px;
+    border: 1px solid rgb(199, 199, 199);
+    background: white;
+    border-radius: 20px;
+    font-weight: 800;
+    font-size: 18px;
+    margin-top: 20px;  /* to adjust gap between text and button  */
+    cursor: pointer;
+}
+.product button:hover{
+    background-color: rgb(231, 231, 231);
+}
+.product A{
+    color: black;
+}
+/*                            bannner-2  */
+.lower-banner{
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px; 
+}
+.banner-2{
+    width: 70%;
+    height: 795px;
+    color: white;
+    background-image: url(imges/img\ 1.avif);
+    background-size: cover; /* adjust the background image size  */
+    background-repeat: no-repeat;
+    padding-left: 100px;     /* adjust text alignment  */
+    padding-top: 155px; 
+}
+.banner-2 button{
+    background-color: #0066a1;
+    color: white;
+    border: none;
+    width: 115px;
+    height: 35px;
+}
+/*                                  banner 3  */
+.banner-3{
+    width: 70%;
+    height: 870px;
+    color: white;
+    background-image: url(imges/img\ \ 2.webp);
+    background-size: 900px; /* adjust the background image size  */
+    background-repeat: no-repeat;
+    padding-left: 98px;
+    padding-top: 70px;
+}
+.banner-3 button{
+    background-color: #0066a1;
+    color: white;
+    border: none;
+    margin-top: 20px;
+    width: 115px;
+    height: 35px;
+}
+/*                                   banner 4  */
+.banner-4{
+    width: 70%;
+    height: 870px;
+    color: white;
+    padding-left: 97px; /* tp adjust the text in it  */
+    padding-top: 45px;
+    background-image: url(imges/img\ \ 3.jpg)
+}
+/*                              vip lifestyle  */
+.vip-lifestyle{
+    width: 100%;
+    height: 630px;
+    padding-top: 145px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.vip-lifestyle-1{
+    display: flex;
+    gap: 162px;
+}
+input{
+    width: 289px;
+    height: 45px;
+}
+.vip-lifestyle button{
+    margin-right: 785px;
+    color: white;
+    background: #0066a1;
+    border: none;
+    width: 85px;
+    height: 30px;
+    cursor: pointer;
+}
+/*                                  footer  */
+footer{
+    width: 100%;
+    height: 350px;
+    background-color: #002B5C;
+    display: flex;
+    justify-content: center;
+}
+.footer-1{
+    height: 285px;
+    border: 1px solid #002B5C;
+    border-bottom-color: #1b5ca5;
+}
+footer table{
+    padding-top: 65px;
+}
+.footer-1 td, .footer-1 th{
+    padding-bottom: 15px;
+}
+footer a{
+    color: white;
+    margin-right: 85px;
+}
+/*                                     footer 2  */
+.footer-2{
+    display: flex;
+    justify-content: center;
+    background-color: #002B5C;
+    gap: 90px;
+}
+.footer-2 a{
+    color: white;
+    margin-right: 85px;
+}
+.footer-2 td, .footer-2 th{
+    padding-bottom: 15px;
+}
+/*                                  footer 3  */
+.footer-3{
+    width: 100%;
+    height: 150px;
+    background: #002B5C;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 50px;
+}
+.footer-3 a, .footer-3 p{
+    color: white;
+    font-size: small;
+}
